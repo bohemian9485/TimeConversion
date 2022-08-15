@@ -45,6 +45,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_5840F843C9FE4F5B8AD8EFF262030F5E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8AB4083D859C4947BF38049E90874952"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -88,12 +94,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0DC86260BB4F034D02F17C5E31B38631"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_39E7BD78D97D40588B7CF71F13BED28A"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -127,6 +127,12 @@
         "OwnerKey" = "8:_CA516113D9ADA3BBF9AF0704863F7C69"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_0DC86260BB4F034D02F17C5E31B38631"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -145,6 +151,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -161,6 +175,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -250,6 +272,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5840F843C9FE4F5B8AD8EFF262030F5E"
+            {
+            "SourcePath" = "8:..\\bin\\Debug\\ConversionTable.db"
+            "TargetName" = "8:ConversionTable.db"
+            "Tag" = "8:"
+            "Folder" = "8:_2038AED26D6E4917BDF6B55330690AE9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8AB4083D859C4947BF38049E90874952"
@@ -474,15 +516,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Time Conversion"
-        "ProductCode" = "8:{DF66BDCC-C76F-4AB4-BA88-B3B2437230EF}"
-        "PackageCode" = "8:{BA9D3C5E-6B06-4C65-A866-277E0CFF6BC7}"
+        "ProductCode" = "8:{71B4CAC5-BFB8-4949-B4B3-86FFC6FF3AD9}"
+        "PackageCode" = "8:{818BA18B-E1E8-4C38-BD51-68D1346E99E1}"
         "UpgradeCode" = "8:{F9F18F2D-FF7A-4958-AE8E-71BF8805442F}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:Reynaldo Ibarra C. Tubianosa"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
